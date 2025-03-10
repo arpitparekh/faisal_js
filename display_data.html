@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Data</title>
+</head>
+
+<body>
+
+  <h1 id="first"></h1>
+  <h2 id="second"></h2>
+
+  <!-- <button id="btn">Click Me</button> -->
+
+  <script>
+
+    // dom // element // document object model
+
+    var myTag = document.getElementById("second");
+    myTag.innerHTML = "user data";
+
+    let a = 12
+    let b = 20;
+
+    var myTag2 = document.getElementById("first");
+    myTag2.innerHTML = 44 != 55;
+
+    myTag.style.color = "green";
+    myTag2.style.color = "red";
+
+    n = 56
+    if (n % 2 == 0) {
+      document.body.style.backgroundColor = "red";
+    } else {
+      document.body.style.backgroundColor = "green";
+    }
+
+  </script>
+
+</body>
+
+</html>

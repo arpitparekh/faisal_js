@@ -1,2 +1,1 @@
-ase 23:
-    console.log('twenty three');
+ "kiwi2", "mango2"
